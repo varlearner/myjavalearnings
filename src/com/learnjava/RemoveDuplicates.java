@@ -17,6 +17,7 @@ public class RemoveDuplicates {
         }
 
         if(arr1.length == 0) {
+            System.out.println("array is empty");
             return;
         }
 
