@@ -24,11 +24,10 @@ public class SearchNumberInArray {
                 break;
             }
         }
-
-        if(found) {
+            if(found) {
             System.out.println("Number found");
         }
-        else {
+            else {
             System.out.println("Number not found");
         }
     }
