@@ -24,6 +24,7 @@ public class SearchNumberInArray {
                 break;
             }
         }
+
         if(found) {
             System.out.println("Number found");
         }
