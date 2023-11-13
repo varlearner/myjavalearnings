@@ -1,5 +1,6 @@
 package src.com.learnjava;
 
+import java.util.Arrays;
 import java.util.Scanner;
 
 public class RemoveDuplicates {
@@ -15,6 +16,8 @@ public class RemoveDuplicates {
             System.out.println("Enter number " + j + ": " );
             arr1[i] = scanner.nextInt();
         }
+
+        Arrays.sort(arr1);
 
         if(arr1.length == 0) {
             System.out.println("array is empty");
